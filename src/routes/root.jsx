@@ -111,7 +111,7 @@ export default function Root() {
           </nav>
         </div>
         <div id="detail">
-        className={
+        {
           navigation.state === "loading" ? "loading" : ""
         }
         <Outlet />
